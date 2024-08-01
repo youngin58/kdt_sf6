@@ -30,5 +30,14 @@ remain = bread % people
 print("빵의 개수 :",share)
 print("남은 빵의 개수 :",remain)
 
+print("빵의 개수 :" + str(share))
+print("남은 빵의 개수 :" + str(remain))
+
 print("빵의 개수 :",str(bread//people))
 print("남은 빵의 개수 :",str(bread%people))
+
+print("빵의 개수 :", bread//people)
+print("남은 빵의 개수 :", bread%people)
+
+print(f'빵의 개수 :{share}')
+print(f'남은 빵의 개수 :{remain}')

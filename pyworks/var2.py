@@ -40,3 +40,21 @@ print("비밀번호 :",user_pw)
 print("email :", email)
 print("나이 :", age)
 
+print(f"아이디 : {user_id}")
+
+
+#소수점 처리하기
+#
+n1 = 10
+n2 = 3
+div = n1 / n2
+print(type(n1))
+print(type(div))
+print(div)
+print(f'결과값 : {div}')
+print(f'결과값 : {div : .1f}')
+print(f'결과값 : {div : .2f}')
+print(f'결과값 : {round(div,2)}')
+
+# 반올림 함수 - round(숫자, 자리수)
+print(round(1.647,2))
